@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -426,7 +426,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: -4872552678638238010, guid: 61e2313a76f90b349af1c0cbc1c72803, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -556,6 +556,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b7967ebd19941ca4c9c1155cb70a906a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e6b9b44320f4448d9d5e0ee634259966, type: 2}
     - target: {fileID: 919132149155446097, guid: b7967ebd19941ca4c9c1155cb70a906a, type: 3}
       propertyPath: m_Name
       value: Empty convinience store cabinet (4)
@@ -615,7 +619,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: -4872552678638238010, guid: bf2a13d64e0c5f04b994262aca722e10, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -732,6 +736,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 4d928e9072bd0c34fa690063297197d8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 22262639920f43d6be32430e4e58350d, type: 2}
     - target: {fileID: 919132149155446097, guid: 4d928e9072bd0c34fa690063297197d8, type: 3}
       propertyPath: m_Name
       value: convinience store shelf (8)
@@ -883,6 +891,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b7967ebd19941ca4c9c1155cb70a906a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 22262639920f43d6be32430e4e58350d, type: 2}
     - target: {fileID: 919132149155446097, guid: b7967ebd19941ca4c9c1155cb70a906a, type: 3}
       propertyPath: m_Name
       value: Empty convinience store cabinet (10)
@@ -1010,6 +1022,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 4d928e9072bd0c34fa690063297197d8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e6b9b44320f4448d9d5e0ee634259966, type: 2}
     - target: {fileID: 919132149155446097, guid: 4d928e9072bd0c34fa690063297197d8, type: 3}
       propertyPath: m_Name
       value: convinience store shelf (17)
@@ -1152,6 +1168,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 4d928e9072bd0c34fa690063297197d8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e6b9b44320f4448d9d5e0ee634259966, type: 2}
     - target: {fileID: 919132149155446097, guid: 4d928e9072bd0c34fa690063297197d8, type: 3}
       propertyPath: m_Name
       value: convinience store shelf (1)
@@ -1261,6 +1281,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b7967ebd19941ca4c9c1155cb70a906a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e6b9b44320f4448d9d5e0ee634259966, type: 2}
     - target: {fileID: 919132149155446097, guid: b7967ebd19941ca4c9c1155cb70a906a, type: 3}
       propertyPath: m_Name
       value: Empty convinience store cabinet (14)
@@ -1334,6 +1358,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 4d928e9072bd0c34fa690063297197d8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e6b9b44320f4448d9d5e0ee634259966, type: 2}
     - target: {fileID: 919132149155446097, guid: 4d928e9072bd0c34fa690063297197d8, type: 3}
       propertyPath: m_Name
       value: convinience store shelf (4)
@@ -1425,6 +1453,14 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 4d928e9072bd0c34fa690063297197d8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e6b9b44320f4448d9d5e0ee634259966, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 4d928e9072bd0c34fa690063297197d8, type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: e6b9b44320f4448d9d5e0ee634259966, type: 2}
     - target: {fileID: 919132149155446097, guid: 4d928e9072bd0c34fa690063297197d8, type: 3}
       propertyPath: m_Name
       value: convinience store shelf (9)
@@ -1516,6 +1552,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b7967ebd19941ca4c9c1155cb70a906a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e6b9b44320f4448d9d5e0ee634259966, type: 2}
     - target: {fileID: 919132149155446097, guid: b7967ebd19941ca4c9c1155cb70a906a, type: 3}
       propertyPath: m_Name
       value: Empty convinience store cabinet (1)
@@ -1625,6 +1665,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 4d928e9072bd0c34fa690063297197d8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 22262639920f43d6be32430e4e58350d, type: 2}
     - target: {fileID: 919132149155446097, guid: 4d928e9072bd0c34fa690063297197d8, type: 3}
       propertyPath: m_Name
       value: convinience store shelf (6)
@@ -1825,6 +1869,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 4d928e9072bd0c34fa690063297197d8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -806793981720070861, guid: ed0b32d22feeee444a14044f79b8c03f, type: 3}
     - target: {fileID: 919132149155446097, guid: 4d928e9072bd0c34fa690063297197d8, type: 3}
       propertyPath: m_Name
       value: convinience store shelf (20)
@@ -1898,6 +1946,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b7967ebd19941ca4c9c1155cb70a906a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e6b9b44320f4448d9d5e0ee634259966, type: 2}
     - target: {fileID: 919132149155446097, guid: b7967ebd19941ca4c9c1155cb70a906a, type: 3}
       propertyPath: m_Name
       value: Empty convinience store cabinet (13)
@@ -2236,6 +2288,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 4d928e9072bd0c34fa690063297197d8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e6b9b44320f4448d9d5e0ee634259966, type: 2}
     - target: {fileID: 919132149155446097, guid: 4d928e9072bd0c34fa690063297197d8, type: 3}
       propertyPath: m_Name
       value: convinience store shelf (12)
@@ -2403,6 +2459,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 4d928e9072bd0c34fa690063297197d8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e6b9b44320f4448d9d5e0ee634259966, type: 2}
     - target: {fileID: 919132149155446097, guid: 4d928e9072bd0c34fa690063297197d8, type: 3}
       propertyPath: m_Name
       value: convinience store shelf (2)
@@ -2478,6 +2538,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b7967ebd19941ca4c9c1155cb70a906a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 22262639920f43d6be32430e4e58350d, type: 2}
     - target: {fileID: 919132149155446097, guid: b7967ebd19941ca4c9c1155cb70a906a, type: 3}
       propertyPath: m_Name
       value: Empty convinience store cabinet (9)
@@ -2551,6 +2615,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 4d928e9072bd0c34fa690063297197d8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e6b9b44320f4448d9d5e0ee634259966, type: 2}
     - target: {fileID: 919132149155446097, guid: 4d928e9072bd0c34fa690063297197d8, type: 3}
       propertyPath: m_Name
       value: convinience store shelf
@@ -2610,7 +2678,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: -4872552678638238010, guid: bf2a13d64e0c5f04b994262aca722e10, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2842,7 +2910,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: -4872552678638238010, guid: bf2a13d64e0c5f04b994262aca722e10, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2954,6 +3022,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 4d928e9072bd0c34fa690063297197d8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e6b9b44320f4448d9d5e0ee634259966, type: 2}
     - target: {fileID: 919132149155446097, guid: 4d928e9072bd0c34fa690063297197d8, type: 3}
       propertyPath: m_Name
       value: convinience store shelf (13)
@@ -3241,6 +3313,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 4d928e9072bd0c34fa690063297197d8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e6b9b44320f4448d9d5e0ee634259966, type: 2}
     - target: {fileID: 919132149155446097, guid: 4d928e9072bd0c34fa690063297197d8, type: 3}
       propertyPath: m_Name
       value: convinience store shelf (5)
@@ -3387,7 +3463,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: aadd5a709a48466c887296bb5b1b8110, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3539,7 +3615,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: -4872552678638238010, guid: bf2a13d64e0c5f04b994262aca722e10, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3577,8 +3653,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1525624746}
   m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: -0.5}
-  m_LocalPosition: {x: 1169.53, y: 560.88, z: 15.22}
-  m_LocalScale: {x: 0.5, y: 1, z: 2.5}
+  m_LocalPosition: {x: 1166.05, y: 560.88, z: 15.22}
+  m_LocalScale: {x: 0.5, y: 1, z: 0.61}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -3829,6 +3905,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 4d928e9072bd0c34fa690063297197d8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e6b9b44320f4448d9d5e0ee634259966, type: 2}
     - target: {fileID: 919132149155446097, guid: 4d928e9072bd0c34fa690063297197d8, type: 3}
       propertyPath: m_Name
       value: convinience store shelf (14)
@@ -3942,7 +4022,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: -4872552678638238010, guid: bf2a13d64e0c5f04b994262aca722e10, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4123,6 +4203,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 4d928e9072bd0c34fa690063297197d8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e6b9b44320f4448d9d5e0ee634259966, type: 2}
     - target: {fileID: 919132149155446097, guid: 4d928e9072bd0c34fa690063297197d8, type: 3}
       propertyPath: m_Name
       value: convinience store shelf (10)
@@ -4214,6 +4298,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b7967ebd19941ca4c9c1155cb70a906a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e6b9b44320f4448d9d5e0ee634259966, type: 2}
     - target: {fileID: 919132149155446097, guid: b7967ebd19941ca4c9c1155cb70a906a, type: 3}
       propertyPath: m_Name
       value: Empty convinience store cabinet (7)
@@ -4446,6 +4534,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b7967ebd19941ca4c9c1155cb70a906a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e6b9b44320f4448d9d5e0ee634259966, type: 2}
     - target: {fileID: 919132149155446097, guid: b7967ebd19941ca4c9c1155cb70a906a, type: 3}
       propertyPath: m_Name
       value: Empty convinience store cabinet (3)
@@ -4505,7 +4597,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: -4872552678638238010, guid: bf2a13d64e0c5f04b994262aca722e10, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4617,6 +4709,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b7967ebd19941ca4c9c1155cb70a906a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -806793981720070861, guid: ed0b32d22feeee444a14044f79b8c03f, type: 3}
     - target: {fileID: 919132149155446097, guid: b7967ebd19941ca4c9c1155cb70a906a, type: 3}
       propertyPath: m_Name
       value: Empty convinience store cabinet (12)
@@ -4690,6 +4786,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b7967ebd19941ca4c9c1155cb70a906a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e6b9b44320f4448d9d5e0ee634259966, type: 2}
     - target: {fileID: 919132149155446097, guid: b7967ebd19941ca4c9c1155cb70a906a, type: 3}
       propertyPath: m_Name
       value: Empty convinience store cabinet (6)
@@ -4861,6 +4961,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 4d928e9072bd0c34fa690063297197d8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e6b9b44320f4448d9d5e0ee634259966, type: 2}
     - target: {fileID: 919132149155446097, guid: 4d928e9072bd0c34fa690063297197d8, type: 3}
       propertyPath: m_Name
       value: convinience store shelf (3)
@@ -4937,7 +5041,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: -4872552678638238010, guid: bf2a13d64e0c5f04b994262aca722e10, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5154,6 +5258,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b7967ebd19941ca4c9c1155cb70a906a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 22262639920f43d6be32430e4e58350d, type: 2}
     - target: {fileID: 919132149155446097, guid: b7967ebd19941ca4c9c1155cb70a906a, type: 3}
       propertyPath: m_Name
       value: Empty convinience store cabinet (2)
@@ -5227,6 +5335,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b7967ebd19941ca4c9c1155cb70a906a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e6b9b44320f4448d9d5e0ee634259966, type: 2}
     - target: {fileID: 919132149155446097, guid: b7967ebd19941ca4c9c1155cb70a906a, type: 3}
       propertyPath: m_Name
       value: Empty convinience store cabinet (5)
@@ -5300,6 +5412,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b7967ebd19941ca4c9c1155cb70a906a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e6b9b44320f4448d9d5e0ee634259966, type: 2}
     - target: {fileID: 919132149155446097, guid: b7967ebd19941ca4c9c1155cb70a906a, type: 3}
       propertyPath: m_Name
       value: Empty convinience store cabinet (8)
@@ -5373,6 +5489,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 4d928e9072bd0c34fa690063297197d8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e6b9b44320f4448d9d5e0ee634259966, type: 2}
     - target: {fileID: 919132149155446097, guid: 4d928e9072bd0c34fa690063297197d8, type: 3}
       propertyPath: m_Name
       value: convinience store shelf (11)
@@ -5464,6 +5584,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b7967ebd19941ca4c9c1155cb70a906a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e6b9b44320f4448d9d5e0ee634259966, type: 2}
     - target: {fileID: 919132149155446097, guid: b7967ebd19941ca4c9c1155cb70a906a, type: 3}
       propertyPath: m_Name
       value: Empty convinience store cabinet
@@ -5537,6 +5661,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 4d928e9072bd0c34fa690063297197d8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 22262639920f43d6be32430e4e58350d, type: 2}
     - target: {fileID: 919132149155446097, guid: 4d928e9072bd0c34fa690063297197d8, type: 3}
       propertyPath: m_Name
       value: convinience store shelf (7)

@@ -1,11 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class PantsGuy : MonoBehaviour
+public class Host : MonoBehaviour
 {
-    public GameObject pants;
-    public GameObject host;
+    public bool isPantsObtained = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,8 +21,15 @@ public class PantsGuy : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            Destroy(pants);
-            host.SendMessage("pantsObtained");
+            if (isPantsObtained)
+            {
+                SceneManager.LoadScene(2);
+            }
+            
         }
+    }
+    public void pantsObtained()
+    {
+        isPantsObtained=true;
     }
 }

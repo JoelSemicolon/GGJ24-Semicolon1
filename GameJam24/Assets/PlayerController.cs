@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class PlayerController : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class PlayerController : MonoBehaviour
     Vector3 lookAngle = new Vector3(0f, 0f, 0f);
     float lookSpeed = 2f;
     float moveSpeed = 6f;
+    public int score = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -46,5 +48,13 @@ public class PlayerController : MonoBehaviour
         {
             rigidbodyController.MovePosition(rigidbodyController.position + transform.right * moveSpeed * Time.deltaTime);
         }
+    }
+    public void gainScore(int amt)
+    {
+        score+=amt;
+    }
+    public void changeFloor(int floor)
+    {
+
     }
 }
